@@ -5,9 +5,14 @@
 .hero.is-dark {
 	background-image: image-url("food.jpg");
   	background-position: center;
-  	text-align: center;
+	text-align: center;
 }
 
+.container h1{
+	background-color: #fafafa;
+	opacity: .8;
+	border-radius: 10px;
+}
 
 .shot-wrapper {
 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);

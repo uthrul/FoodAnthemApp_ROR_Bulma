@@ -1,17 +1,17 @@
 <% if !user_signed_in? %>
-	<section class="hero is-dark">
-		<div class="hero-body">
-			<div class="container has-text-centered">
-				<h1 class="title is-size-3 has-text-grey-dark">
-					Who doesn’t love glorious food and resto pictures? 
-					<span class="has-text-info">
-						Beautiful pictures of different dishes with recipes and very charming eating places.
-					</span>
-				</h1>
-				<div class="content">
-					<%= link_to "Login", new_user_session_path, class: "button is-primary" %>
-				</div>
+<section class="hero is-dark">
+	<div class="hero-body">
+		<div class="container has-text-grey-dark">
+			<h1 class="title is-size-3 has-text-grey-dark">
+				Who doesn’t love glorious food and resto pictures?
+				<span class="has-text-danger">
+					Beautiful pictures of different dishes with recipes and best eating places.
+				</span>
+			</h1>
+			<div class="content">
+				<%= link_to "Login", new_user_session_path, class: "button is-primary" %>
 			</div>
 		</div>
-	</section>
+	</div>
+</section>
 <% end %>
