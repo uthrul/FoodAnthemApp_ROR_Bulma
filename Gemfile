@@ -60,13 +60,13 @@ group :development do
   gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
 end
 
-group :development do
-	gem 'sqlite3'
+group :development, :test do
+  # Use sqlite3 as the database for Active Record
+  gem 'sqlite3', '~> 1.3', '>= 1.3.9'
 end
 
 group :production do
-	gem 'pg'
-	gem 'rails_12factor'
+  gem 'pg'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
