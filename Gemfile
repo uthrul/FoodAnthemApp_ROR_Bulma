@@ -39,6 +39,8 @@ gem 'impressionist', '~> 1.6'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 gem 'gravatar_image_tag'
 gem 'acts_as_votable', '~> 0.11.1'
+gem 'aws-sdk', '~> 3.0', '>= 3.0.1'
+gem 'aws-sdk-v1', '~> 1.66'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
