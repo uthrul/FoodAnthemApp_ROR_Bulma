@@ -86,7 +86,7 @@ Rails.application.configure do
     config.logger    = ActiveSupport::TaggedLogging.new(logger)
   end
 
-  config.paperclip_defaults = {
+  config.aws_credentials = {
     storage: :s3,
     s3_credentials: {
       bucket: ENV.fetch('S3_BUCKET_NAME'),
